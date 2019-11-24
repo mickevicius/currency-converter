@@ -1,0 +1,23 @@
+input[readonly] {
+    position: relative;
+
+}
+
+.currency-box {
+    margin: 15px;
+}
+
+.x-sign {
+    width: 7px;
+    position: relative;
+    top: -28px;
+    left: 195px;
+    border-radius: 2px;
+    background-color: #00008b;
+    color: #ffffff;
+    font-size: 7px;
+    padding: 2px 0 1px 3px;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+    cursor: pointer;
+}
+
