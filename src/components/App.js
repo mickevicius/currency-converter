@@ -22,7 +22,7 @@ class App extends React.Component {
 
     componentDidMount() {
         this.fetchData();
-        // setInterval(() => this.fetchData(), 60000);
+        setInterval(() => this.fetchData(), 60000);
     }
 
     fetchData = () => {
@@ -36,7 +36,7 @@ class App extends React.Component {
                     updated: data.time.updated
                 });
             });
-    }
+    };
 
     handleChange(event) {
         this.setState({amount: event.target.value});
@@ -94,7 +94,6 @@ class App extends React.Component {
             </div>
         );
     }
-
 }
 
 export default App;

@@ -19,7 +19,6 @@ function CurrencyBox(props) {
             <div className="x-sign" onClick={() => {props.handleClick(props.item.id)}}>X</div>
         </div>
     );
-
 }
 
 export default CurrencyBox
